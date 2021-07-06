@@ -9,3 +9,5 @@ p "Enter at least 2 numbers, separated by spaces:"
 user_string = gets.chomp
 
 user_numbers = user_string.split
+
+puts user_numbers.count
